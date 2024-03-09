@@ -175,7 +175,7 @@ export default function Home() {
 
                 {/* Dropdown panel */}
                 <div
-                  className={`absolute left-60 top-1.5 overflow-scroll border-transparent overflow-x-hidden h-56 mt-2 w-200 bg-customColor1 border border-gray-300 rounded-md shadow-md ${
+                className={`fixed left-30 top-24 overflow-scroll border-transparent overflow-x-hidden h-56 mt-2 w-72 bg-customColor1 border border-gray-300 rounded-md shadow-md ${
                     dropdown1
                       ? "block animate__animated animate__fadeIn"
                       : "hidden"
@@ -278,11 +278,11 @@ export default function Home() {
 
                 {/* Dropdown panel */}
                 <div
-                  className={`absolute left-60 top-1.5 overflow-scroll border-transparent overflow-x-hidden h-56 mt-2 w-200 bg-customColor1 border border-gray-300 rounded-md shadow-md ${
-                    dropdown2
-                      ? "block animate__animated animate__fadeIn"
-                      : "hidden"
-                  }`}
+                 className={`fixed left-30 top-24 overflow-scroll border-transparent overflow-x-hidden h-56 mt-2 w-72 bg-customColor1 border border-gray-300 rounded-md shadow-md ${
+                  dropdown2
+                    ? "block animate__animated animate__fadeIn"
+                    : "hidden"
+                }`}
                 >
                   <div className="flex">
                     <h1 className="border-transparent">Select a token</h1>
